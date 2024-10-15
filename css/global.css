@@ -6,6 +6,7 @@
 
 body {
     font-family:'Courier New', Courier, monospace;
+    padding: 20px;
 }
 
 header {
@@ -16,36 +17,29 @@ header {
 
 .top-section {
     justify-content: space-between;
-    padding: 20px;
     display: flex;
-    background-color: rgb(255, 255, 255);
+    gap: 1em;
 }
 
 .top-left, .top-right {
     height: 100px;
     background-color: #fba437;
-    width: 48%;
-}
-
-main {
-    padding: 20px;
 }
 
 .main-content {
     background-color: #dbec07;
     min-height: 30rem;   
+    padding-top: 20px;
 }
 
 .middle-section {
-    padding: 20px;
+    padding-top: 20px;
     display: flex;
-    justify-content: space-between;
+    gap: 1em;
 }
 
 .block {
     background-color: #4a89d0;
-    padding: 10px;
-    width: 30%;
     min-height: 20rem;
 }
 
@@ -65,7 +59,7 @@ footer {
 
 @media (min-width: 1024px) {
     .top-left, .top-right {
-        width: 48%;
+        width: 100%;
     }
 
     .block {
@@ -75,7 +69,7 @@ footer {
 
 @media (min-width: 768px) and (max-width: 1023px) {
     .top-left, .top-right {
-        width: 48%;
+        width: 100%;
     }
     .main-content {
         height: auto;
@@ -113,10 +107,7 @@ footer {
         width: 100%;
         margin-bottom: 20px;
         min-height: 15rem;
-    }git push
-    git add .
-    git commit -m "eat:crente project"
-    git pu      align-items: center;
+       align-items: center;
         flex-direction: column;
     }
 
