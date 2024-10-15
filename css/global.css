@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    box-sizing: border-block;
+    margin: 0;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+
+.top-section {
+    justify-content: space-between;
+    padding: 20px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+
+.top-left, .top-right {
+    height: 100px;
+    background-color: #fba437;
+    width: 48%;
+}
+
+main {
+    padding: 20px;
+}
+
+.main-content {
+    background-color: #dbec07;
+    min-height: 30rem;   
+}
+
+.middle-section {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block {
+    background-color: #4a89d0;
+    padding: 10px;
+    width: 30%;
+    min-height: 20rem;
+}
+
+footer {
+    justify-content: space-between;
+    padding: 20px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+
+.footer-block {
+    width: 20%;
+    height: 100px;
+    background-color: #e2e2e2;
+}
+
+
+@media (min-width: 1024px) {
+    .top-left, .top-right {
+        width: 48%;
+    }
+
+    .block {
+        width: 30%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .top-left, .top-right {
+        width: 48%;
+    }
+    .main-content {
+        height: auto;
+        min-height: 20rem; 
+    }
+
+    .block {
+        min-height: 10rem;
+        width: 100%;  
+        margin-bottom: 20px; 
+        
+    }
+
+    .middle-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .top-section {
+        flex-direction: column;
+    }
+    .main-content {
+        min-height: 10rem;
+    }
+
+    .top-left, .top-right {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .block {
+        width: 100%;
+        margin-bottom: 20px;
+        min-height: 15rem;
+    }git push
+    git add .
+    git commit -m "eat:crente project"
+    git pu      align-items: center;
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-block {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}
